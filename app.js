@@ -5,6 +5,6 @@ function add(num1, num2) {
     return num1 + num2;
 }
 button.addEventListener("click", function () {
-    console.log(inp1.value);
+
     console.log(add(+inp1.value, +inp2.value));
 });
